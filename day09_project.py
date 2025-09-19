@@ -206,7 +206,15 @@ try:
 except:
     print("pas de base de donnée faite, merci de remplir les donné dans un fichier name_for_hangman.txt")
 else:
-    playing = True
+    try:
+        sys.argv[1]
+    except:
+        print("     Il manque l'argument pour avoir la liste de mot.\n \n  Écrire : python3 day09_project.py name_for_hangman.txt\n\n (name_for_hangman peut etre remplacé par n'importe quel fichier txt qui possède un mot par ligne qui devra etre deviné)")
+        playing = False
+    else:
+        playing = True
+
+
 
 
         
