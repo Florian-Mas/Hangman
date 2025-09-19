@@ -1,0 +1,12 @@
+ash
+nova
+atlas
+banshee
+voruna
+dante
+vauban
+zephir
+lavos
+gauss
+grendel
+mesa
